@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+body {
+  margin: 0;
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+}
+.project-card-view {
+  position: relative;
+}
+
+.download-icon-btn {
+  position: absolute;
+  top: 50px; /* Adjust to your preference */
+  right: 50px; /* Adjust to your preference */
+  color: #434242b2;
+  /* background-color: rgba(0, 0, 0, 0.6); Semi-transparent background */
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.download-icon-btn:hover{
+  background-color: purple;
+color: #e0d0d0;
+}
+
+.link-icon-btn {
+  position: absolute;
+  top: 50px; /* Adjust to your preference */
+  right: 90px; /* Adjust to your preference */
+  color: #434242b2;
+  /* background-color: rgba(0, 0, 0, 0.6); Semi-transparent background */
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.link-icon-btn:hover{
+  background-color: purple;
+color: #e0d0d0;
+}
+.nav-profile{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
